@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Agent Embodiment Starter",
+  "Description": "A local observation, bounded action, and conversation bridge for a character in your Unreal world.",
+  "Category": "AI",
+  "CanContainContent": false,
+  "EnabledByDefault": true,
+  "IsBetaVersion": true,
+  "Modules": [{"Name": "AgentEmbodiment", "Type": "Runtime", "LoadingPhase": "Default"}]
+}

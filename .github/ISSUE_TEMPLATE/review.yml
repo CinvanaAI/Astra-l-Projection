@@ -1,0 +1,23 @@
+name: Developer preview feedback
+description: Share findings from trying or reviewing this preview.
+title: "[Review] "
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: What did you review or try?
+      description: Identify code reading, Python tests, Unreal compilation, runtime actions, or live provider use. Include the version or commit.
+    validations:
+      required: true
+  - type: textarea
+    id: findings
+    attributes:
+      label: What worked, failed, or was unclear?
+      description: Concrete observations are most useful. Separate measured behavior from suggestions.
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: Most useful next improvement
+      description: What would make this starter easier to adopt or extend?

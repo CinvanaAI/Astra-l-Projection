@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-09-13",
+  "python_offline_tests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "python -B -m unittest discover -s adapters/tests -v",
+    "scope": "Decision subprocesses mocked; one real Python subprocess validates invalid stdin rejection before any CLI call."
+  },
+  "local_cli_compatibility": {
+    "ok": true,
+    "required_flags_present": true,
+    "image_flag_available": true,
+    "model_called": false,
+    "scope": "Local codex exec --help only; no executable path or account information included."
+  },
+  "bridge_example_configuration": {
+    "loads": true,
+    "adapter_script_resolves": true,
+    "provider_timeout_seconds": 120,
+    "adapter_timeout_seconds": 90
+  },
+  "live_model_inference_tested": false,
+  "account_authentication_tested": false,
+  "model_schema_acceptance_tested": false,
+  "recipient_machine_tested": false
+}

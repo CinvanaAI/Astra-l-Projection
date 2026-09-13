@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-09-13T17:05:04.7881828Z",
+  "package_version": "0.1.0",
+  "engine_version": "5.8.2",
+  "platform": "Windows x64",
+  "build_target": "Development Editor",
+  "compiler": "MSVC 14.44.35207",
+  "windows_sdk": "10.0.22621.0",
+  "clean_cpp_host_build_passed": true,
+  "built_source_matches_distributed_source": true,
+  "test_environment": "Isolated fresh C++ host using Engine Entry map and Engine primitives only",
+  "native_runtime_checks": [
+    {
+      "name": "observe_completed",
+      "passed": true
+    },
+    {
+      "name": "first_person_capture_or_explicit_renderer_error",
+      "passed": true
+    },
+    {
+      "name": "native_move_changes_position",
+      "passed": true
+    },
+    {
+      "name": "look_changes_native_view",
+      "passed": true
+    },
+    {
+      "name": "native_human_event_persisted",
+      "passed": true
+    },
+    {
+      "name": "native_agent_reply_correlated",
+      "passed": true
+    },
+    {
+      "name": "stop_interrupts_active_native_move",
+      "passed": true
+    },
+    {
+      "name": "native_stale_stop_revision_rejected",
+      "passed": true
+    },
+    {
+      "name": "native_expired_command_rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate_without_reply_not_reexecuted",
+      "passed": true
+    },
+    {
+      "name": "native_wall_blocks_movement",
+      "passed": true
+    }
+  ],
+  "measured_move_distance_cm": 102.07153799109814,
+  "conversation_bridge": {
+    "passed": true,
+    "provider": "included deterministic subprocess adapter",
+    "flow": "native human event -> native observation -> provider subprocess -> correlated native say event",
+    "human_input_method": "public Blueprint-callable ReceiveHumanMessage method invoked by isolated test host",
+    "real_model_invoked": false
+  },
+  "rendered_observation": {
+    "passed": true,
+    "renderer": "D3D12 offscreen",
+    "capture_count": 2,
+    "width": 640,
+    "height": 360,
+    "fresh_session_request_timestamp_and_capture_correlations_verified": true,
+    "images_opened_and_visually_inspected": true,
+    "view_changed_after_yaw_degrees": 90,
+    "note": "Dark Engine-only test fixture. Checker floor visible; floor/horizon view changed after turn. Presentation lighting quality was not evaluated."
+  },
+  "runtime_shutdown": {
+    "headless_exited_normally": true,
+    "rendered_exited_normally": true,
+    "runtime_running_flags_false": true
+  },
+  "not_verified": [
+    "Human keyboard chat and mouse interaction by a real user",
+    "Arbitrary imported skeletal mesh and Animation Blueprint integration",
+    "Real model provider account or API invocation",
+    "Packaged shipping/game target",
+    "Linux or macOS runtime",
+    "Multiplayer replication"
+  ],
+  "source_sha256": {
+    "AgentEmbodiment.uplugin": "8618f29d382c8546566f4353746a51f7151b267b314136abbc9397dbc28664f9",
+    "Source/AgentEmbodiment/AgentEmbodiment.Build.cs": "51d598b60ee87a90935231b3aa56a919e355c78a11d7ad65871e22d6d70799e3",
+    "Source/AgentEmbodiment/Private/AgentEmbodimentCharacter.cpp": "1c229229cdaba1853038b943650e3eaad9fa5bc86abcab99627e63e5372caff5",
+    "Source/AgentEmbodiment/Private/AgentEmbodimentGameMode.cpp": "128261af55d8b2a94a7286c46c27b7b0f6250d9b87e6ca6b541290608798fca9",
+    "Source/AgentEmbodiment/Private/AgentEmbodimentModule.cpp": "5bf1df9928e101fa7ece479ee42dec991ad2cc4bdb03e4d7ac4fcaf30e39c16d",
+    "Source/AgentEmbodiment/Public/AgentEmbodimentCharacter.h": "11eb4f336e6a96ff955f8f8476f87634df77ae8bd0df41fd8543cab7ee84e5bd",
+    "Source/AgentEmbodiment/Public/AgentEmbodimentGameMode.h": "76b936347c1b59ba913c368b5651a244b24467436796ec9eb31f2f5c5249458b"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["reply", "actions"],
+  "properties": {
+    "reply": {"type": ["string", "null"], "maxLength": 500},
+    "actions": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "anyOf": [
+          {
+            "type": "object", "additionalProperties": false,
+            "required": ["action", "params"],
+            "properties": {
+              "action": {"type": "string", "enum": ["observe", "stop"]},
+              "params": {"type": "object", "additionalProperties": false, "properties": {}, "required": []}
+            }
+          },
+          {
+            "type": "object", "additionalProperties": false,
+            "required": ["action", "params"],
+            "properties": {
+              "action": {"type": "string", "enum": ["look"]},
+              "params": {
+                "type": "object", "additionalProperties": false,
+                "required": ["yaw_delta_deg", "pitch_delta_deg"],
+                "properties": {
+                  "yaw_delta_deg": {"type": "number", "minimum": -90, "maximum": 90},
+                  "pitch_delta_deg": {"type": "number", "minimum": -60, "maximum": 60}
+                }
+              }
+            }
+          },
+          {
+            "type": "object", "additionalProperties": false,
+            "required": ["action", "params"],
+            "properties": {
+              "action": {"type": "string", "enum": ["move"]},
+              "params": {
+                "type": "object", "additionalProperties": false,
+                "required": ["forward", "right", "seconds", "speed_cm_s"],
+                "properties": {
+                  "forward": {"type": "number", "minimum": -1, "maximum": 1},
+                  "right": {"type": "number", "minimum": -1, "maximum": 1},
+                  "seconds": {"type": "number", "minimum": 0.05, "maximum": 2},
+                  "speed_cm_s": {"type": "number", "minimum": 1, "maximum": 300}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

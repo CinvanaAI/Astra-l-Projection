@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a reproducible problem in the starter.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python and Unreal versions, and repository commit or release.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the command or interaction and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Actual result
+      description: Include relevant errors or redacted receipts. Remove credentials, personal paths and private conversation text.
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Unreal plugin
+        - Command client
+        - Conversation bridge
+        - Optional Codex adapter
+        - Installation or documentation
+        - Unsure

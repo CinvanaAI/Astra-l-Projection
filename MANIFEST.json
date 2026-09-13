@@ -1,0 +1,262 @@
+{
+  "package": "Astra-l-Projection",
+  "version": "0.1.0-preview.1",
+  "distribution": "source-only developer preview",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 225,
+      "sha256": "e74e511d97036b0f0e74af747a404ce20c91066ca17906da67b2b80267a3af9c"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 85,
+      "sha256": "ae0c730420b63bc5afcadb2be96e3d823386456bc0ee5f52cdb415a18fccdd42"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "bytes": 1007,
+      "sha256": "59a4e6b11ece529ad1bddda4a40887593842894c12e2800cf5bdb57f03e57599"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 27,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/review.yml",
+      "bytes": 807,
+      "sha256": "2d7427b53f2e05f4bacec347aba1ae33209ba93036c1e69cb563f7ca22bdf14d"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 457,
+      "sha256": "30e78756b76c14ca925697eb7966832611c4ee97ed1343e2400289e8da4eb0f2"
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 1284,
+      "sha256": "313c4c0aa38220204ff9d567d2b86fa793572bd15cea2bd723ba80bf157e085e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 87,
+      "sha256": "fc2908a1ccb245fd94154b2e86ca87526db3bc3b27f94efebc14dc6a8450dc67"
+    },
+    {
+      "path": "adapters/codex-response.schema.json",
+      "bytes": 2066,
+      "sha256": "cfe9610c2233238f1571fd149518549bb796b802fce32f0fa600ee8677fbe669"
+    },
+    {
+      "path": "adapters/codex.example.json",
+      "bytes": 269,
+      "sha256": "153245048b20a4a4c7e4b89111741358316e6b3475e11dda15599f72170a7a7d"
+    },
+    {
+      "path": "adapters/codex_provider.py",
+      "bytes": 15891,
+      "sha256": "34c91ecebb7686bc9cf9add67fdcc9504f8a64e919a741cc39676123ecd4682a"
+    },
+    {
+      "path": "adapters/README.md",
+      "bytes": 6934,
+      "sha256": "4f0c99151909c2ccd5826c8cb4f19011f135c334a589e54d0f410dae3bd4109c"
+    },
+    {
+      "path": "adapters/tests/test_codex_provider.py",
+      "bytes": 9842,
+      "sha256": "52475c0636b137a687ce20361699cec1347848642eb4bda8365444612d872f4e"
+    },
+    {
+      "path": "adapters/verification.json",
+      "bytes": 900,
+      "sha256": "350201e1700ae67c131f5886ed86a8b1c0928f2b5d26003c144e55ca965192e2"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2453,
+      "sha256": "4e1f41036100e7bcbb0e0422c19568aeddff757db5088679d9dc9b819cbcf31c"
+    },
+    {
+      "path": "assets/banner.svg",
+      "bytes": 2477,
+      "sha256": "746c01da89635412c4d67cdee366dbfe016c8163ac93e305b47eabfd6cc345ea"
+    },
+    {
+      "path": "bridge/__init__.py",
+      "bytes": 36,
+      "sha256": "51885e3d7754e91f64775930e1bcadc6969602160110fd2fe55abfc48aa22005"
+    },
+    {
+      "path": "bridge/bridge.py",
+      "bytes": 16556,
+      "sha256": "8c33c19f0551c8ee965d5026d3fc71dd55d0d05633c7c7cdd8fbabf4aa2b7e06"
+    },
+    {
+      "path": "bridge/PROTOCOL.md",
+      "bytes": 7550,
+      "sha256": "ea84a04f3973f2c5d0eb4d93273e4e255fcc5573960a5247cb904254b3e8f637"
+    },
+    {
+      "path": "bridge/README.md",
+      "bytes": 1677,
+      "sha256": "2b29bb1e851fb3f5634eecd9903fbb6833e0646992d54dcbe916cea8b2f0026a"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 855,
+      "sha256": "32886e9ad99b5ad68cb0a2dc53319ce215c2a0f10ea7e657669ce2802efcbdf9"
+    },
+    {
+      "path": "client/__init__.py",
+      "bytes": 47,
+      "sha256": "0843d199886f1e73e362a092ed1cc7470c32979a4c70a63ae40a61d0e3e231f0"
+    },
+    {
+      "path": "client/player.py",
+      "bytes": 17096,
+      "sha256": "adb9c420172bc926289476d6e878d688d5f7cb4cf27ff33b133f80b40a95b49a"
+    },
+    {
+      "path": "client/README.md",
+      "bytes": 3233,
+      "sha256": "6c2b09b8aec35a3e6568790ba122bb8ba5bb49cb47f59dfc99a51a1ba0e244aa"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2423,
+      "sha256": "2d124a94bb2c54c50133f8b1ffc78a6472f8e553e5ab1fbbbee55ce912789aec"
+    },
+    {
+      "path": "docs/EXTENDING.md",
+      "bytes": 2967,
+      "sha256": "bdf363f2573632807f19df3d4313ae9dea9fa1e1012311e70f2e8862baf75364"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 1861,
+      "sha256": "dd3f8f1f0ab380939d57d104cca568f603ceb2325e23934658b41b4baeecef99"
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "bytes": 6487,
+      "sha256": "bde9892f5988406901a1f1afd083ba2aab71c7c755c5a20656ca7ef24723e5ac"
+    },
+    {
+      "path": "docs/RELEASING.md",
+      "bytes": 1537,
+      "sha256": "558bfdb3e281260c2e930fe113af146bba2493e2faf6ecf87a76e5ccbac8ce12"
+    },
+    {
+      "path": "docs/REVIEWER-GUIDE.md",
+      "bytes": 4249,
+      "sha256": "a894fbedaacb008f2830126333faf3b85acfa4333f903a7e21145a8e33495af4"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 5137,
+      "sha256": "fe8ef9a2cb29e90dc207ca13c0b53558a1ff24ef1aa42cd7e04cab879c5a3605"
+    },
+    {
+      "path": "examples/mock-agent.json",
+      "bytes": 177,
+      "sha256": "63ffc05213164a3ddbad287997499d45cdf45e0cc3599da41cd4b33ecbaa0315"
+    },
+    {
+      "path": "examples/mock_agent.py",
+      "bytes": 1323,
+      "sha256": "52c8c7dde0c4ce3f72c2871d0d2056a513cdf7c7444d70953133a0160b617670"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "cd92d07a337bcc0c5cf083a6178eea474fb0dddeb165a52158c679a940023e39"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/AgentEmbodiment.uplugin",
+      "bytes": 423,
+      "sha256": "8618f29d382c8546566f4353746a51f7151b267b314136abbc9397dbc28664f9"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/README.md",
+      "bytes": 4962,
+      "sha256": "adfafecbdaf59036545de5d0057945475c273930bcbae0b59ad2f92ff47ac9b2"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/Source/AgentEmbodiment/AgentEmbodiment.Build.cs",
+      "bytes": 420,
+      "sha256": "51d598b60ee87a90935231b3aa56a919e355c78a11d7ad65871e22d6d70799e3"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/Source/AgentEmbodiment/Private/AgentEmbodimentCharacter.cpp",
+      "bytes": 23366,
+      "sha256": "1c229229cdaba1853038b943650e3eaad9fa5bc86abcab99627e63e5372caff5"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/Source/AgentEmbodiment/Private/AgentEmbodimentGameMode.cpp",
+      "bytes": 6908,
+      "sha256": "128261af55d8b2a94a7286c46c27b7b0f6250d9b87e6ca6b541290608798fca9"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/Source/AgentEmbodiment/Private/AgentEmbodimentModule.cpp",
+      "bytes": 90,
+      "sha256": "5bf1df9928e101fa7ece479ee42dec991ad2cc4bdb03e4d7ac4fcaf30e39c16d"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/Source/AgentEmbodiment/Public/AgentEmbodimentCharacter.h",
+      "bytes": 3807,
+      "sha256": "11eb4f336e6a96ff955f8f8476f87634df77ae8bd0df41fd8543cab7ee84e5bd"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/Source/AgentEmbodiment/Public/AgentEmbodimentGameMode.h",
+      "bytes": 1666,
+      "sha256": "76b936347c1b59ba913c368b5651a244b24467436796ec9eb31f2f5c5249458b"
+    },
+    {
+      "path": "Plugins/AgentEmbodiment/verification.json",
+      "bytes": 3771,
+      "sha256": "63bce586a2391c8f6f1b060608c6fbb855d64f1dd91020bff68176b4b36176b6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6638,
+      "sha256": "11a12d5fc97aeffdf6a1ed8c102461ce5f16d5b9c20ff80965c98f7faf55c2c7"
+    },
+    {
+      "path": "tests/test_portable.py",
+      "bytes": 14731,
+      "sha256": "736cdd54b99d3623d721c27f520e5fa543e650965797d8392f2d97c58df09995"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 1169,
+      "sha256": "2dfc655616f92b26a35188d2136d81a734fcca62339673bcdc05018115626360"
+    },
+    {
+      "path": "tools/build_release.py",
+      "bytes": 3024,
+      "sha256": "431de15083ecab5b86995402358df9a33b6849be7fdbb559905496235ece879e"
+    },
+    {
+      "path": "tools/check_package.py",
+      "bytes": 2192,
+      "sha256": "7362b630ba91af4618336dc0f64988f6e09f25e41b10a526e9b871f7756cb4e6"
+    },
+    {
+      "path": "tools/check_repository.py",
+      "bytes": 3710,
+      "sha256": "c84adb1545f9dabeb0ece870c7f8a6cab4e74c055d3a6c3fc451c4756b18a862"
+    },
+    {
+      "path": "tools/install_plugin.py",
+      "bytes": 2575,
+      "sha256": "3c6def565f6d8a8529dfe9231391bc9799f3206cb36cd0250d30784536026163"
+    },
+    {
+      "path": "tools/test_tools.py",
+      "bytes": 1659,
+      "sha256": "7c859854a7998e35553955489098ff5f8471cf659d6ff824e40065069e06fdbc"
+    }
+  ]
+}

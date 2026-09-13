@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "agent_id": "codex-agent",
+  "cwd": "..",
+  "command": [
+    "{python}",
+    "-B",
+    "adapters/codex_provider.py",
+    "--model",
+    "gpt-6-astra",
+    "--timeout",
+    "90"
+  ],
+  "timeout_seconds": 120,
+  "command_timeout_seconds": 10
+}

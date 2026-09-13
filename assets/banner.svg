@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">Astra-l-Projection</title>
+  <desc id="description">Connect a conversation to a body in Unreal. An abstract conversation node connects to a geometric body through an illuminated interface.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111628"/><stop offset="1" stop-color="#171127"/></linearGradient>
+    <linearGradient id="signal"><stop stop-color="#a69bff"/><stop offset="1" stop-color="#5ae0d3"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#d7dcff" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1280" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="20" fill="url(#grid)"/>
+  <path d="M64 75H124" stroke="#6adfcf" stroke-width="4"/>
+  <text x="64" y="118" fill="#aeb6d1" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="3">UNREAL EMBODIMENT STARTER</text>
+  <text x="60" y="187" fill="#f4f3ff" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="58" letter-spacing="-2">Astra-l-Projection</text>
+  <text x="64" y="235" fill="#c6ccdf" font-family="Segoe UI, Arial, sans-serif" font-size="22">Connect a conversation to a body in Unreal.</text>
+  <text x="64" y="293" fill="#8894b3" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="2">PLUGIN  /  CLIENT  /  BRIDGE</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="862" cy="180" r="49" stroke="#a69bff" stroke-opacity=".16" stroke-width="22"/>
+    <path d="M840 165h43v28h-24l-15 11v-11h-4z" stroke="#bcb3ff" stroke-width="2.5"/>
+    <path d="M918 180h87" stroke="url(#signal)" stroke-width="3"/>
+    <path d="m990 173 9 7-9 7" stroke="#72d9db" stroke-width="2"/>
+    <ellipse cx="1112" cy="274" rx="83" ry="23" stroke="#5ae0d3" stroke-opacity=".3"/>
+    <ellipse cx="1112" cy="274" rx="55" ry="13" stroke="#5ae0d3" stroke-opacity=".12"/>
+    <circle cx="1112" cy="116" r="22" stroke="#73e1d5" stroke-width="2.5"/>
+    <path d="m1092 151-24 22-9 44m33-66h40l24 22 9 44m-73-66v64m40-64v64m-40 0h40m-40 0-13 54m53-54 13 54" stroke="#73e1d5" stroke-width="2.5"/>
+    <path d="M1031 104V84h20m122 0h20v20m0 150v20h-20m-122 0h-20v-20" stroke="#7886b4" stroke-opacity=".7" stroke-width="1.5"/>
+  </g>
+</svg>

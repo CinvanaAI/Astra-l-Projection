@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "agent_id": "diagnostic-agent",
+  "command": ["{python}", "mock_agent.py"],
+  "cwd": ".",
+  "timeout_seconds": 120,
+  "command_timeout_seconds": 10
+}
