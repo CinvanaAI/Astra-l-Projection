@@ -1,8 +1,10 @@
 # Preparing a source release
 
-The repository is named Astra-l-Projection. The initial public version is
-`0.1.0-preview.1`; its native plugin is the byte-identical verified `0.1.0`
-implementation. The preview adds repository presentation and release tooling.
+The repository is named Astra-l-Projection. The public launch package is
+`0.1.0-preview.2`; it adds launch presentation and validation documentation.
+Its native plugin remains byte-identical to the verified `0.1.0` checkpoint.
+A proposed chat-status change was excluded because its native rebuild did not
+finish within the validation window.
 
 Run the three Python suites listed in [validation](VALIDATION.md), followed by:
 

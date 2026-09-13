@@ -1,6 +1,6 @@
 {
   "package": "Astra-l-Projection",
-  "version": "0.1.0-preview.1",
+  "version": "0.1.0-preview.2",
   "distribution": "source-only developer preview",
   "files": [
     {
@@ -105,8 +105,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 855,
-      "sha256": "32886e9ad99b5ad68cb0a2dc53319ce215c2a0f10ea7e657669ce2802efcbdf9"
+      "bytes": 1128,
+      "sha256": "3ed8ab63371c5cc372b15a1a7fd64df823096956418fd41a124f926b761ec75e"
     },
     {
       "path": "client/__init__.py",
@@ -134,6 +134,16 @@
       "sha256": "bdf363f2573632807f19df3d4313ae9dea9fa1e1012311e70f2e8862baf75364"
     },
     {
+      "path": "docs/launch-attempt.json",
+      "bytes": 1038,
+      "sha256": "a4d63f5cc790a53d3f9a2c5a1d2573dfdcdfbebc503c28a730e59fc143399753"
+    },
+    {
+      "path": "docs/LAUNCH-VALIDATION.md",
+      "bytes": 2167,
+      "sha256": "f3e6c83ef39cd4bf78159e2c1d50991cdbf1eefd4c971fbd08cc1a44b7fad736"
+    },
+    {
       "path": "docs/PROVENANCE.md",
       "bytes": 1861,
       "sha256": "dd3f8f1f0ab380939d57d104cca568f603ceb2325e23934658b41b4baeecef99"
@@ -145,8 +155,8 @@
     },
     {
       "path": "docs/RELEASING.md",
-      "bytes": 1537,
-      "sha256": "558bfdb3e281260c2e930fe113af146bba2493e2faf6ecf87a76e5ccbac8ce12"
+      "bytes": 1651,
+      "sha256": "b6ccacecfea2df20c539689ef093e134af2889f94ec635ccf4b1bf93a3c7ecbb"
     },
     {
       "path": "docs/REVIEWER-GUIDE.md",
@@ -155,8 +165,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 5137,
-      "sha256": "fe8ef9a2cb29e90dc207ca13c0b53558a1ff24ef1aa42cd7e04cab879c5a3605"
+      "bytes": 5245,
+      "sha256": "804e20a36d3497c42a9929ef870fb567fc957110fe7752d9c3b1414ac79236a1"
     },
     {
       "path": "examples/mock-agent.json",
@@ -220,8 +230,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6638,
-      "sha256": "11a12d5fc97aeffdf6a1ed8c102461ce5f16d5b9c20ff80965c98f7faf55c2c7"
+      "bytes": 6950,
+      "sha256": "7e1324d923b7e7f6868a48ef81db25827ff0fbed6de5bc7c56449164afc6f661"
     },
     {
       "path": "tests/test_portable.py",
@@ -236,7 +246,7 @@
     {
       "path": "tools/build_release.py",
       "bytes": 3024,
-      "sha256": "431de15083ecab5b86995402358df9a33b6849be7fdbb559905496235ece879e"
+      "sha256": "a1527054133dfb76311bc8328417bc735741d0ac55efe6be9670695079ba1d13"
     },
     {
       "path": "tools/check_package.py",

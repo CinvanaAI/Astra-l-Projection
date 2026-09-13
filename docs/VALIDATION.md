@@ -1,6 +1,8 @@
-# Release validation — native 0.1.0 / repository 0.1.0-preview.1
+# Release validation — native 0.1.0 / repository 0.1.0-preview.2
 
 This record concerns the extracted starter package. Prior private prototype demonstrations are not counted as tests of this release.
+
+See the [launch validation addendum](LAUNCH-VALIDATION.md) for the later presentation and provider checks.
 
 The public Astra-l-Projection preview preserves the native source recorded below and adds repository documentation, review templates, CI and release tooling. See [release preparation](RELEASING.md). CI reports its own Python platform results separately; it does not run Unreal.
 

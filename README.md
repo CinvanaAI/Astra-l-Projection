@@ -11,7 +11,9 @@ A source developer starter built with Astra: an Unreal plugin, a Python command 
 
 **[Get started](docs/QUICKSTART.md)** · **[Review the project](docs/REVIEWER-GUIDE.md)** · **[Validation record](docs/VALIDATION.md)** · **[Build on it](docs/EXTENDING.md)**
 
-**[Download the developer preview](https://github.com/CinvanaAI/Astra-l-Projection/releases/tag/v0.1.0-preview.1)** — source, instructions and checks; bring your own Unreal project.
+**[Download the developer preview](https://github.com/CinvanaAI/Astra-l-Projection/releases/tag/v0.1.0-preview.2)** — source, instructions and checks; bring your own Unreal project.
+
+[Watch the 32-second product walkthrough](https://github.com/CinvanaAI/Astra-l-Projection/releases/download/v0.1.0-preview.2/astra-l-projection-walkthrough.mp4). It uses clearly labeled graphics and recorded native camera stills. See the [launch evidence and limitations](docs/LAUNCH-VALIDATION.md).
 
 ## What you can build from
 

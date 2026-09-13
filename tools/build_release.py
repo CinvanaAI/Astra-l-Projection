@@ -10,7 +10,7 @@ import zipfile
 from check_repository import ROOT, check
 from check_package import check as check_package
 
-VERSION = '0.1.0-preview.1'
+VERSION = '0.1.0-preview.2'
 TOP_FILES = {'README.md', 'AGENTS.md', 'LICENSE', 'THIRD-PARTY-NOTICES.md',
              'CONTRIBUTING.md', 'CHANGELOG.md', '.gitignore', '.gitattributes',
              '.editorconfig'}

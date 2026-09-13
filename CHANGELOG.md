@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-preview.2 - 2026-09-13
+
+- Add public launch images, an edited product walkthrough and launch handoff.
+- Preserve the previously verified runtime source and its SHA-256 record.
+- Keep chat connection-status UI and keyboard/live-chat validation as documented gaps.
+
 ## 0.1.0-preview.1 — 2026-09-13
 
 First public developer preview of Astra-l-Projection.

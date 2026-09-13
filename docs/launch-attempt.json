@@ -1,0 +1,21 @@
+{
+  "package_version": "0.1.0-preview.2",
+  "engine": "5.8.2",
+  "native_source": "Previously verified original runtime; attempted status rebuild did not complete and was stopped",
+  "model_requested": "gpt-6-astra",
+  "model_invocation_attempts": 0,
+  "model_calls_succeeded": 0,
+  "scope": "Attempted direct scripted provider/native check. Runtime startup did not complete; no provider invocation or native action was executed by this test.",
+  "image_input": "No image sent; model inference was not started.",
+  "decisions": [],
+  "passed": false,
+  "error": "No runtime.json heartbeat before startup cutoff; owned probe stopped.",
+  "capture_files": [],
+  "outcome": "Live model check not run: the isolated Unreal process did not publish a runtime heartbeat within the bounded startup window.",
+  "new_status_build": {
+    "attempts": 2,
+    "passed": false,
+    "outcome": "No link result within bounded waits; owned builds stopped and all unverified source changes restored."
+  },
+  "owned_probe_stopped": true
+}
